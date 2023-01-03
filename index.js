@@ -35,7 +35,7 @@ app.post("/", (req, res) => {
     }
     const options = {
         method: "POST",
-        auth: "aniket:0111d6c0b5787c4fd943eba61dd65e28-us21"
+        auth: "aniket:fe61083b0c84d674b883f34374f83a06-us21"
 
     }
     const jsonData = JSON.stringify(data)
