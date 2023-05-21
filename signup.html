@@ -90,13 +90,20 @@ body {
   z-index: 2;
 }
 
-.form-signin input[type="text"] {
+.top{
   margin-bottom: -1px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-
-.form-signin input[type="email"] {
+  .middle{
+  margin-bottom: -1px;
+    margin-top:0px;
+    border-top-right-radius:0;
+    border-top-left-radius:0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  }
+.bottom[type="email"] {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
@@ -187,7 +194,7 @@ h1 {
         />
         <h1 class="h4 mb-md-3 fw-normal">Signup to My Newsletter!</h1>
 
-        <div class="form-floating">
+        <div class="form-floating top">
           <input
             type="text"
             class="form-control"
@@ -197,7 +204,7 @@ h1 {
           required autofocus/>
           <label for="floatingname">First Name</label>
         </div>
-        <div class="form-floating">
+        <div class="form-floating middle">
           <input
             type="text"
             class="form-control"
@@ -208,7 +215,7 @@ h1 {
           <label for="floatingname">Last Name</label>
         </div>
 
-        <div class="form-floating">
+        <div class="form-floating bottom">
           <input
             type="email"
             class="form-control"
